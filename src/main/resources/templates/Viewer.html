@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Receipt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Show Input</div>
+        <hr>
+        <table border="2", cellpadding="5">
+            <tr>
+                <th>Vegetables Name : </th><td th:text="${name}"></td></br>
+
+                <th>Vegetables Price : </th><td th:text="${price}"></td></br>
+
+                <th>Quantity Price : </th><td th:text="${quantity}"></td></br>
+
+                <th>Total Price : </th><td th:text="${pricetotal}"></td></br>
+
+                <th>Total with discount : </th><td th:text="${total}"></td></br>
+
+                <th>Get Discount : </th><td th:text="${discount}"></td></br>
+
+                <th>Change : </th><td th:text="${Change}"></td></br>
+            </tr>
+        </table>
+    </body>
+</html>
